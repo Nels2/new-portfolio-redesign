@@ -12,7 +12,17 @@ $(document).ready(function () {
 
 	var typed = new Typed('#typed', {
 		stringsElement: '#typed-strings',
-		loop: false,
-		showCursor: false
+		loop: true,
+		loopCount: Infinity,
+		showCursor: false,
+		typeSpeed: 20,
+		backSpeed: 20,
+		startDelay: 5,
+		/**
+   		* After each string is typed
+   		* @param {number} arrayPos
+   		* @param {Typed} self
+   		*/
+		onStringTyped: (arrayPos, self) => {},
 	});
 });
