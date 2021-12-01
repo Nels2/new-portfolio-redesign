@@ -18,7 +18,6 @@ $(document).ready(function () {
 		fadeOut: false,
   		fadeOutClass: 'typed-fade-out',
   		fadeOutDelay: 3000,
-		smartBackspace: true,
 		loop: true,
 		loopCount: Infinity,
 		bindInputFocusEvents: false,
