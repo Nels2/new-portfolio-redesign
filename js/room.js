@@ -13,19 +13,18 @@ $(document).ready(function () {
 	var typed = new Typed('#typed', {
 		stringsElement: '#typed-strings',
 		showCursor: false,
-		typeSpeed: 0,
+		typeSpeed: 10,
 		startDelay: 0,
 		fadeOut: true,
   		fadeOutClass: 'typed-fade-out',
-  		fadeOutDelay: 10000,
+  		fadeOutDelay: 900,
 		loop: true,
 		loopCount: Infinity,
 		bindInputFocusEvents: false,
 		/**
-   		* After each string is typed
-   		* @param {number} arrayPos
-   		* @param {Typed} self
+  	 	* During looping, after last string is typed
+   		* @param {toggle()} self
    		*/
-		onStringTyped: (arrayPos, self) => {},
+		onLastStringBackspaced: (self) => {},
 	});
 });
