@@ -11,7 +11,6 @@ $(document).ready(function () {
 	});
 
 	var typed = new Typed('#typed', {
-		strings: ['curl "https://nels2.github.io/new-portfolio-redesign.html" --compressed'],
 		stringsElement: '#typed-strings',
 		showCursor: false,
 		typeSpeed: 80,
