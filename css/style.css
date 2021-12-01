@@ -23,7 +23,9 @@ a, a:visited {
 	color: rgb(10, 207, 60);
 	font-weight: 600;
 }
-
+hr {
+    color: var(--main-fonts-color);
+}
 .app {
 	display: flex;
 	flex-direction: column;
@@ -189,4 +191,32 @@ a, a:visited {
 	text-align:center;
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
+}
+/*──────────────────
+    social media
+──────────────────*/
+
+.social-media{
+	padding: 10px;
+	display: flex;
+	position: center;
+    align-items: space-around;
+	justify-content:center;
+}
+
+.social-media a {
+    margin: 10px;
+    font-size: 2rem;
+    text-align:center;
+    display: inline-block;
+	color: var(--main-fonts-color);
+}
+
+.social-media a i{
+	cursor: pointer;
+}
+
+.social-media  a:hover {
+	color: var(--main-decor-color);
+	text-shadow: 0 0 50px var(--main-decor-color);
 }
