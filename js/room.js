@@ -13,17 +13,10 @@ $(document).ready(function () {
 	var typed = new Typed('#typed', {
 		stringsElement: '#typed-strings',
 		loop: true,
-		loopCount: Infinity,
+		loopCount: 10,
 		showCursor: false,
-		typeSpeed: 35,
-		backSpeed: 35,
-		startDelay: 5,
-		backDelay: 25000,
-		/**
-   		* After each string is typed
-   		* @param {number} arrayPos
-   		* @param {Typed} self
-   		*/
-		onStringTyped: (arrayPos, self) => {},
+		typeSpeed: 50,
+		backSpeed: 50,
+		backDelay: 15000,
 	});
 });
