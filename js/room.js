@@ -15,9 +15,10 @@ $(document).ready(function () {
 		loop: true,
 		loopCount: Infinity,
 		showCursor: false,
-		typeSpeed: 20,
-		backSpeed: 20,
+		typeSpeed: 35,
+		backSpeed: 35,
 		startDelay: 5,
+		backDelay: 25000,
 		/**
    		* After each string is typed
    		* @param {number} arrayPos
