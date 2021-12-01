@@ -11,12 +11,22 @@ $(document).ready(function () {
 	});
 
 	var typed = new Typed('#typed', {
+		strings: ['curl "https://nels2.github.io/new-portfolio-redesign.html" --compressed'],
 		stringsElement: '#typed-strings',
-		loop: true,
-		loopCount: 10,
 		showCursor: false,
 		typeSpeed: 50,
+		startDelay: 0,
 		backSpeed: 50,
-		backDelay: 30,
+		smartBackspace: true,
+		backDelay: 700,
+		loop: true,
+		loopCount: Infinity,
+		bindInputFocusEvents: false,
+		/**
+   		* After each string is typed
+   		* @param {number} arrayPos
+   		* @param {Typed} self
+   		*/
+		onStringTyped: (arrayPos, self) => {},
 	});
 });
