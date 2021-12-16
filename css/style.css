@@ -27,72 +27,6 @@ a, a:visited {
 hr {
     color: var(--main-fonts-color);
 }
-.app {
-	display: flex;
-	flex-direction: column;
-}
-
-.history, .list {
-	display: flex;
-	flex-direction: column;
-	height: 93vh;
-	padding: 0.5vw;
-	overflow: auto;
-}
-
-.line {
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 2px;
-}
-
-.line-user {
-	font-weight: 600;
-	margin-right: 10px;
-}
-
-.line-user::after {
-	content: ':';
-}
-
-.line-message {
-	color: white;
-}
-
-.line-message.server {
-	color: lightgray;
-	margin: 4px;
-}
-
-.line-message .mention {
-	font-weight: 600;
-	text-decoration: underline;
-	color: yellow;
-}
-
-.interface {
-	display: flex;
-	flex-direction: row;
-	height: 4vh;
-	border-top: 3px solid var(--main-fonts-color);
-	padding-top: 3px;
-	margin: 0 0.5vw;
-}
-
-#message {
-	border: none;
-	width: 96vw;
-	background-color: transparent;
-	color: white;
-	font-size: 14px;
-	font-family: monospace;
-	outline: none;
-	padding: 0 6px;
-}
-
-#sendButton {
-	width: 4vw;
-}
 #projects{
 	margin-top:100px;
     height: 100%;
@@ -124,7 +58,7 @@ hr {
 .card{
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+	margin: 10px;
 	width: 200px;
 	height:250px;
 	border-radius:12px;
@@ -135,6 +69,10 @@ hr {
 	width: 100%;
 	height:70%;
 	border-radius:10px 10px 0px 0px;
+}
+.work-img{
+	width: 288.75px;
+	height:197.5px;
 }
 
 .card .work-content{
@@ -192,32 +130,4 @@ hr {
 	text-align:center;
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
-}
-/*──────────────────
-    social media
-──────────────────*/
-
-.social-media{
-	padding: 10px;
-	display: flex;
-	position: center;
-    align-items: space-around;
-	justify-content:center;
-}
-
-.social-media a {
-    margin: 10px;
-    font-size: 2rem;
-    text-align:center;
-    display: inline-block;
-	color: var(--main-fonts-color);
-}
-
-.social-media a i{
-	cursor: pointer;
-}
-
-.social-media  a:hover {
-	color: var(--main-decor-color);
-	text-shadow: 0 0 50px var(--main-decor-color);
 }
