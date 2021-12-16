@@ -1,6 +1,6 @@
 :root{
 	--main-background: black;
-	--main-fonts-color: rgb(206, 25, 25);
+	--main-fonts-color: rgb(255 255 255);
 	--main-decor-color:#4747476c;
     --main-header-background:#2e2121;
 	--main-font-family: monospace;
@@ -11,6 +11,7 @@ body {
 	font-family: var(--main-font-family);
 	font-size: 20px;
 	color: var(--main-fonts-color);
+	text-align: center;
 }
 
 body, div, p {
@@ -22,12 +23,6 @@ a, a:visited {
 	text-decoration: underline;
 	color: rgb(255, 255, 255);
 	font-weight: 600;
-}
-
-a, a:hover {
-    text-decoration: underline;
-	color: rgb(17, 0, 255);
-	font-weight: 00; 
 }
 hr {
     color: var(--main-fonts-color);
@@ -162,15 +157,15 @@ hr {
 }
 
 .card a{
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 .card .work-content:hover{
-    color:#202020;
+    color:#0602ff;
 }
 
 .card .work-content2:hover{
-    color:#202020;
+    color:#0602ff;
 }
 
 .card:hover{
