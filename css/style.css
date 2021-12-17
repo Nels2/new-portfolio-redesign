@@ -11,21 +11,11 @@ body {
 	font-family: var(--main-font-family);
 	font-size: 20px;
 	color: var(--main-fonts-color);
-	text-align: center;
 }
-
-body, div, p {
-	margin: 0;
-	padding: 0;
-}
-
 a, a:visited {
 	text-decoration: underline;
 	color: rgb(255, 255, 255);
 	font-weight: 600;
-}
-hr {
-    color: var(--main-fonts-color);
 }
 #projects{
 	margin-top:100px;
@@ -54,13 +44,21 @@ hr {
 	align-items: center;
 	padding: 20px;
 }
-
+.centerthis {
+	text-align:center;
+}
+.centerimg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+}
 .card{
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
-	width: 200px;
-	height:250px;
+	margin: 5px;
+	width: 150px;
+	height:175px;
 	border-radius:12px;
       background:var(--main-decor-color);
 }
@@ -70,15 +68,14 @@ hr {
 	height:70%;
 	border-radius:10px 10px 0px 0px;
 }
-.work-img2{
-	margin-top: 20%;
-	border-radius: 10px;
+.centerimgsecondaryclass {
+	border-radius: 3px;
 }
 
 .card .work-content{
 	text-align: center;
 	padding: 10px 5px;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
 	cursor: pointer;
@@ -88,7 +85,7 @@ hr {
 	text-align: center;
 	padding: 5px 5px;
 	margin-top: -3px;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
 	cursor: pointer;
