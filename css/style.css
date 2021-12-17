@@ -71,9 +71,8 @@ hr {
 	border-radius:10px 10px 0px 0px;
 }
 .work-img2{
-	margin-top: 50%;
-	width: 288.75px;
-	height:197.5px;
+	margin-top: 20%;
+	border-radius: 10px;
 }
 
 .card .work-content{
