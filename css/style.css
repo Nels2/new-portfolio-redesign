@@ -2,7 +2,7 @@
 	--main-background: black;
 	--main-fonts-color: rgb(255 255 255);
 	--main-decor-color:#4747476c;
-    --main-header-background:#2e2121;
+        --main-header-background:#2e2121;
 	--main-font-family: monospace;
 }
 
@@ -29,16 +29,16 @@ hr {
 }
 #projects{
 	margin-top:100px;
-    height: 100%;
+        height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    justify-content: center;
+        justify-content: center;
 	text-align:center;
 	color: var(--main-fonts-color);
 }
 #projects h3{
-    padding-top: 70px;
+        padding-top: 70px;
 }
 #projects p{
 	font-family: var(--main-font-family);
@@ -49,8 +49,8 @@ hr {
 .work{
 	display: flex; 
 	flex: 1;
-    flex-wrap: wrap;
-    justify-content:center;
+        flex-wrap: wrap;
+        justify-content:center;
 	align-items: center;
 	padding: 20px;
 }
@@ -62,7 +62,7 @@ hr {
 	width: 200px;
 	height:250px;
 	border-radius:12px;
-    background:var(--main-decor-color);
+        background:var(--main-decor-color);
 }
 
 .card img{
